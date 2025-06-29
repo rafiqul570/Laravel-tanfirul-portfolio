@@ -1,0 +1,53 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  .hero {
+    background-image: url('{{asset("frontend/image/dd.jpg")}}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 140px 0;
+    text-align: center;
+    position: relative;
+    font-family: arial;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+    z-index: 1;
+  }
+
+  .hero .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 12px;
+  }
