@@ -27,7 +27,7 @@
     <!-- Meta -->
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
-    <title>Book Your Consultation Online</title>
+    <title>Rafiqul Islam | Portfolio</title>
 
    
     <link rel="stylesheet" href=" https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css">
